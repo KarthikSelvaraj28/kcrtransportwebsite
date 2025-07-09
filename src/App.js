@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
+import DrawerAppBar from './components/DrawerAppBar';
+import Banner from './components/Banner';
+import Buses from './components/Buses';
+import Cargo from './components/Cargo';
+import Tippers from './components/Tippers';
+import DieselBowsers from './components/DieselBowsers';
+import Contact  from './components/Contact';
+import ImageSlider from './components/imageslider';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DrawerAppBar />
+      <div className="main-content">
+        <Banner/>
+        
+  <Buses />
+  <Cargo />
+<Tippers />
+<DieselBowsers />
+<ImageSlider  />
+<footer>
+<Contact />
+</footer>
+   </div>    
+      
+      
+       
     </div>
   );
 }
