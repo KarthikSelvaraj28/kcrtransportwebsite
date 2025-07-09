@@ -11,6 +11,7 @@ const Tippers = () => {
                   fontSize: { xs: '2rem', md: '2.5rem' },
                   fontWeight: '600',
                   color: '#3a1681',
+                  mt:"20px",
                   fontFamily: 'Poppins, sans-serif',
                   textAlign: 'center',
                   marginBottom: '1.5rem',
