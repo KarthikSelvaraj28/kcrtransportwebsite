@@ -28,13 +28,13 @@ const Tippers = () => {
       <Grid
         container
         spacing={4}
-        sx={{
+               sx={{
           px: { xs: 2, sm: 4, md: 8 },
           pb: 6,
         }}
       >
         {/* Left: Text Content */}
-        <Grid item xs={12} md={6}>
+        <Grid size={{xs:12,lg:6,md:6}}>
           <Paper
             elevation={3}
             sx={{
@@ -53,6 +53,7 @@ const Tippers = () => {
                 fontWeight: 'bold',
                 color: '#3a1681',
                 fontFamily: 'Poppins, sans-serif',
+                mt:1,
               }}
             >
               TIPPERS
@@ -73,7 +74,7 @@ const Tippers = () => {
             </Typography>
 
             {/* Bullet Points */}
-            <Box sx={{ mt: 2 }}>
+            <Box sx={{ mt: 2,ml:-1 }}>
               {[
                 '6 Cu.M to 12 Cu.M Tipper Trucks',
                 '7 & 9 Cu.M Ready Mix Concrete (RMC) Available',
@@ -103,15 +104,15 @@ const Tippers = () => {
         </Grid>
 
         {/* Right: Image Box */}
-        <Grid item xs={12} md={6}sx={{textAlign:"Right"}}>
-          <Paper
-            elevation={3}
+        <Grid size={{xs:12,lg:6,md:6}}>
+          <Box
+            
             sx={{
               p: { xs: 2, sm: 3 },
               borderRadius: 2,
              // backgroundColor: '#fff',
              // boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-             // height: '100%',
+              height: '100%',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
@@ -130,11 +131,10 @@ const Tippers = () => {
                   xl: '80%',
                 },
                 maxHeight: 500,
-                //borderRadius: 3,
-               // boxShadow: '0 6px 16px rgba(0,0,0,0.1)',
+              
               }}
             />
-          </Paper>
+          </Box>
         </Grid>
       </Grid>
     </section>
