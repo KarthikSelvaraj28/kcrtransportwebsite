@@ -24,7 +24,7 @@ THINK TRANSPOTATION THINK US</span>
   src="/images/banner.png"
   alt="KCR Logo"
   sx={{
-    
+    textAlign:"center",
     height: 'auto', // maintain aspect ratio
     maxWidth: '100%'
   }}
