@@ -118,18 +118,19 @@ const Tippers = () => {
               alignItems: 'center',
             }}
           >
-            <img
-              component="img"
-              src="/images/Tippers.png"
+            <Box
+      component="img"
+      src="/images/Tippers.png"
               alt="Tipper Vehicle"
-              style={{
-                
-                height: "auto",
-    maxwidth: "100%",
-    width:"100%"
               
-              }}
-            />
+      sx={{
+        width: {xs:"100%"},
+        height: 'auto',
+        objectFit: 'cover',
+       
+      }}
+    />
+           
           </Box>
         </Grid>
       </Grid>
