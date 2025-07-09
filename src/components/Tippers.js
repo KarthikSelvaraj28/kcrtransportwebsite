@@ -123,13 +123,7 @@ const Tippers = () => {
               src="/images/Tippers.png"
               alt="Tipper Vehicle"
               sx={{
-                width: {
-                  xs: '100%',
-                  sm: '100%',
-                  md: '100%',
-                  lg: '90%',
-                  xl: '80%',
-                },
+                
                 maxHeight: 500,
               
               }}
