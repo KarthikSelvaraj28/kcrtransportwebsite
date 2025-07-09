@@ -124,7 +124,7 @@ const Tippers = () => {
               alt="Tipper Vehicle"
               
       sx={{
-        width: {xs:"100%"},
+        width: {xs:"100%",md:"auto"},
         height: 'auto',
         objectFit: 'cover',
        
