@@ -81,7 +81,7 @@ const Buses = () => {
     color: "#333",
     fontFamily: "Poppins, sans-serif",
     lineHeight: 1.6,
-    ml:-1
+    ml:1
   }}
 >
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Andhra to Telangana: 3 designated routes run by top operators</p>
