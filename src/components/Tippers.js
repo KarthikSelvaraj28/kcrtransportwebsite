@@ -104,27 +104,29 @@ const Tippers = () => {
         </Grid>
 
         {/* Right: Image Box */}
-        <Grid size={{xs:12,lg:6,md:6}}>
+        <Grid size={{xs:12,lg:6,md:5}}>
           <Box
             
             sx={{
               p: { xs: 2, sm: 3 },
               borderRadius: 2,
              // backgroundColor: '#fff',
-             // boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
               height: '100%',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
             }}
           >
-            <Box
+            <img
               component="img"
               src="/images/Tippers.png"
               alt="Tipper Vehicle"
-              sx={{
+              style={{
                 
-                maxHeight: 500,
+                height: "auto",
+    maxwidth: "100%",
+    width:"100%"
               
               }}
             />

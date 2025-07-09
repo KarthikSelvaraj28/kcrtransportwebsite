@@ -6,7 +6,7 @@ const Contact = () => {
     <footer id="contact">
       <Box
         sx={{
-          background: 'rgba(0, 127, 163, 0.84)',
+          background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6);',
          
           //px: { xs: 2, sm: 4, md: 6 },
           py: { xs: 4, sm: 5 },
@@ -45,7 +45,7 @@ const Contact = () => {
 
           {/* Head Office */}
           <Grid item xs={12} md={12}  sx={{ textAlign: {xs:"center"}}}>
-            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#10243D' }}>
+            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#3a1681' }}>
               Head Office:
             </Typography>
             <Typography>33B Sithi Vinayagar Koil Street</Typography>
@@ -55,7 +55,7 @@ const Contact = () => {
 
           {/* Branch Office */}
           <Grid item xs={12} md={12} sx={{ textAlign: {xs:"center"}}}>
-            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#10243D'  }}>
+            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#3a1681'  }}>
               Branch Office:
             </Typography>
             <Typography>256 3rd cross, near Prasath Studio</Typography>
@@ -65,7 +65,7 @@ const Contact = () => {
 
           {/* Maintenance Workplace */}
           <Grid item xs={12} md={12} sx={{ textAlign: {xs:"center"}}}>
-            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#10243D'  }}>
+            <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mb: 1,color:'#3a1681'  }}>
               Maintenance Workplace:
             </Typography>
             <Typography>New Byepass Road</Typography>
@@ -77,7 +77,10 @@ const Contact = () => {
 
         <Box textAlign="center" mt={4} sx={{ textAlign: {xs:"center"}}}>
           <Typography variant="body2" sx={{ fontSize: '0.9rem' }}>
-            © Copyright Reserved by 2025 KCR Transport
+
+            Copyright © 2025 KCR TRANSPORT 
+
+
           </Typography>
         </Box>
       </Box>
