@@ -18,13 +18,13 @@ THINK TRANSPOTATION THINK US</span>
             </Typography>
 
           </Grid>
-          <Grid size={{ xs: 12,  md: 8 }}   >
+          <Grid size={{ xs: 12,  md: 8 }} sx={{ textAlign:"center"}}   >
 <Box
   component="img"
   src="/images/banner.png"
   alt="KCR Logo"
   sx={{
-    textAlign:"center",
+   
     height: 'auto', // maintain aspect ratio
     maxWidth: '100%'
   }}
