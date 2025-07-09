@@ -146,7 +146,7 @@ const Buses = () => {
             src="/images/staffbus.png"
             alt="Staff Bus"
             sx={{
-             // width: "100%",
+              width: "100%",
              
             }}
           />
