@@ -18,6 +18,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Scrollspy from 'react-scrollspy';
+import CloseIcon from '@mui/icons-material/Close'; // 👈 Add this import at the top
+
 import './DrawerAppBar.css';
 
 const drawerWidth = '70vw'; // 70% width
@@ -128,17 +130,21 @@ function DrawerAppBar(props) {
           </Box>
 
           {/* Hamburger icon */}
-          <Box sx={{ display: { xs: 'flex', sm: 'none' }, alignItems: 'center' }}>
-            <IconButton
-              color="inherit"
-              edge="start"
-              onClick={handleDrawerToggle}
-              aria-label="menu"
-              sx={{ p: 1 }}
-            >
-              <MenuIcon sx={{ fontSize: 30 }} />
-            </IconButton>
-          </Box>
+         <Box sx={{ display: { xs: 'flex', sm: 'none' }, alignItems: 'center' }}>
+  <IconButton
+    color="inherit"
+    edge="start"
+    onClick={handleDrawerToggle}
+    aria-label={mobileOpen ? 'close drawer' : 'open drawer'}
+    sx={{ p: 1 }}
+  >
+    {mobileOpen ? (
+      <CloseIcon sx={{ fontSize: 30 }} /> // 👈 Show X icon when drawer is open
+    ) : (
+      <MenuIcon sx={{ fontSize: 30 }} />  // 👈 Show hamburger when closed
+    )}
+  </IconButton>
+</Box>
 
           {/* Desktop Nav Buttons */}
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>

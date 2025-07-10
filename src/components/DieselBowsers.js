@@ -64,7 +64,7 @@ const DieselBowsers = () => {
                   >
                     <img
                       component="img"
-                      src="/images/dieselbowsers.png"
+                      src="/images/Deise.png"
                       alt="Tipper Vehicle"
                       style={{
                         
