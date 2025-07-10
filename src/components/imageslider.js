@@ -8,6 +8,8 @@ const images = [
   '/images/clients/greavescotton.png',
   '/images/clients/intercitysmartbus.png',
   '/images/clients/jeevanroadconstructions.png',
+    '/images/clients/flixbus.png',
+
   '/images/clients/larsentoubro.png',
   '/images/clients/nhai.png',
   '/images/clients/nsc.png',
