@@ -18,11 +18,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Scrollspy from 'react-scrollspy';
-import CloseIcon from '@mui/icons-material/Close'; // 👈 Add this import at the top
+import CloseIcon from '@mui/icons-material/Close';
 
 import './DrawerAppBar.css';
 
-const drawerWidth = '70vw'; // 70% width
+const drawerWidth = '70vw';
 
 const navItems = [
   { label: 'Buses', href: '#buses' },
@@ -64,7 +64,21 @@ function DrawerAppBar(props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.label} disablePadding>
-            <ListItemButton href={item.href} sx={{ textAlign: 'center' }}>
+            <ListItemButton
+              href={item.href}
+              sx={{
+                textAlign: 'center',
+                fontFamily: 'Poppins, sans-serif',
+                fontWeight: 600,
+                color: '#3a1681',
+                transition: 'all 0.3s ease-in-out',
+                '&:hover': {
+                  background: 'linear-gradient(90deg, #dcd5f6, #7fe5e4)',
+                  color: '#6715e3',
+                  transform: 'scale(1.05)',
+                },
+              }}
+            >
               <ListItemText primary={item.label} />
             </ListItemButton>
           </ListItem>
@@ -129,22 +143,22 @@ function DrawerAppBar(props) {
             </Typography>
           </Box>
 
-          {/* Hamburger icon */}
-         <Box sx={{ display: { xs: 'flex', sm: 'none' }, alignItems: 'center' }}>
-  <IconButton
-    color="inherit"
-    edge="start"
-    onClick={handleDrawerToggle}
-    aria-label={mobileOpen ? 'close drawer' : 'open drawer'}
-    sx={{ p: 1 }}
-  >
-    {mobileOpen ? (
-      <CloseIcon sx={{ fontSize: 30 }} /> // 👈 Show X icon when drawer is open
-    ) : (
-      <MenuIcon sx={{ fontSize: 30 }} />  // 👈 Show hamburger when closed
-    )}
-  </IconButton>
-</Box>
+          {/* Hamburger Icon */}
+          <Box sx={{ display: { xs: 'flex', sm: 'none' }, alignItems: 'center' }}>
+            <IconButton
+              color="inherit"
+              edge="start"
+              onClick={handleDrawerToggle}
+              aria-label={mobileOpen ? 'close drawer' : 'open drawer'}
+              sx={{ p: 1 }}
+            >
+              {mobileOpen ? (
+                <CloseIcon sx={{ fontSize: 30 }} />
+              ) : (
+                <MenuIcon sx={{ fontSize: 30 }} />
+              )}
+            </IconButton>
+          </Box>
 
           {/* Desktop Nav Buttons */}
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
@@ -170,7 +184,7 @@ function DrawerAppBar(props) {
                     },
                     '&.active-link': {
                       borderBottom: '2px solid #6715e3',
-                      color: '#7681B3;',
+                      color: '#7681B3',
                     },
                   }}
                 >
@@ -183,7 +197,7 @@ function DrawerAppBar(props) {
           {/* Contact Info (desktop) */}
           <Box className="contact-icons">
             <a href="mailto:kcrtransport@gmail.com" className="contact-link">
-              <EmailOutlinedIcon sx={{ fontSize: 22,color:"#7681B3" }} />
+              <EmailOutlinedIcon sx={{ fontSize: 22, color: "#7681B3" }} />
               <span className="contact-text">kcrtransport@gmail.com</span>
             </a>
             <a
@@ -192,7 +206,7 @@ function DrawerAppBar(props) {
               rel="noopener noreferrer"
               className="contact-link"
             >
-              <WhatsAppIcon sx={{ fontSize: 22,color:"#7681B3" }} />
+              <WhatsAppIcon sx={{ fontSize: 22, color: "#7681B3" }} />
               <span className="contact-text">9944651308</span>
             </a>
           </Box>
@@ -216,7 +230,7 @@ function DrawerAppBar(props) {
               boxSizing: 'border-box',
             },
             '& .MuiBackdrop-root': {
-              background: 'rgba(127, 229, 228, 0.2)', // Optional subtle tint on right side
+              background: 'rgba(127, 229, 228, 0.2)',
             },
           }}
         >
