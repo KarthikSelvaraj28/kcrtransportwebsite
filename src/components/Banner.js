@@ -21,7 +21,7 @@ THINK TRANSPOTATION THINK US</span>
           <Grid size={{ xs: 12,  md: 8 }} sx={{ textAlign:"center"}}   >
 <Box
   component="img"
-  src="/images/banner.png"
+  src="/images/bannerbus.png"
   alt="KCR Logo"
   sx={{
    
