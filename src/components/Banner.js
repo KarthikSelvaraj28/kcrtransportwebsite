@@ -13,8 +13,8 @@ const Banner = () => {
       xs: 20
     }}}  variant="h3" component="h4">
 <strong>KCR TRANSPORT</strong><br />
-<span style={{fontStyle:"italic",color:"#85a1ce",fontSize:"0.7em"}}>
-THINK TRANSPOTATION THINK US</span>
+<span style={{fontStyle:"italic",color:"#6683b0",fontSize:"0.7em"}}>
+THINK TRANSPORTATION THINK US</span>
             </Typography>
 
           </Grid>

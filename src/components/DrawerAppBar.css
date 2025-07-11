@@ -116,3 +116,14 @@ html, body {
 .contact-link:hover {
   color: #6715e3;
 }
+
+/* Hover effect for mobile drawer items (ListItemButton) */
+.MuiDrawer-paper .MuiListItemButton-root {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiDrawer-paper .MuiListItemButton-root:hover {
+  background: linear-gradient(90deg, #dcd5f6, #7fe5e4); /* Matching gradient */
+  color: #6715e3 !important;
+  transform: scale(1.05);
+}

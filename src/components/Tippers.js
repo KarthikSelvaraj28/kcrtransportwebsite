@@ -29,7 +29,7 @@ const Tippers = () => {
         container
         spacing={4}
                sx={{
-          px: { xs: 2, sm: 4, md: 8 },
+          px: { xs: 2, sm: 3, md: 8 },
           pb: 6,
         }}
       >
