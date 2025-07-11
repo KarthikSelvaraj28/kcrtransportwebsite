@@ -146,7 +146,9 @@ const Buses = () => {
             src="/images/staffbus.png"
             alt="Staff Bus"
             sx={{
-              width: "100%",
+              width: {xs:"100%",md:"90%",xl:"auto"},
+        height: 'auto',
+        objectFit: 'cover',
              
             }}
           />
