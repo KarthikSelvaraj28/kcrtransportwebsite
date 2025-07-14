@@ -4,12 +4,11 @@ import Slider from 'react-slick';
 import { Box, Typography } from '@mui/material';
 
 const images = [
+  '/images/clients/flixbus.png',
   '/images/clients/Governmentoftn.png',
   '/images/clients/greavescotton.png',
   '/images/clients/intercitysmartbus.png',
   '/images/clients/jeevanroadconstructions.png',
-    '/images/clients/flixbus.png',
-
   '/images/clients/larsentoubro.png',
   '/images/clients/nhai.png',
   '/images/clients/nsc.png',
