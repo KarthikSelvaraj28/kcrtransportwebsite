@@ -229,8 +229,9 @@ function DrawerAppBar(props) {
                     color: '#3a1681',
                     transition: 'transform 0.3s ease, color 0.3s ease',
                     '&:hover': {
-                      transform: 'scale(1.05)',
-                      color: '#7681B3',
+                      //transform: 'scale(1.05)',
+                      //color: '#536e97ff',
+                      background:"transparent"
                     },
                     '&.active-link': {
                       borderBottom: '2px solid #6715e3',
@@ -276,7 +277,7 @@ function DrawerAppBar(props) {
             '& .MuiDrawer-paper': {
               width: drawerWidth,
               height: '100vh',
-            //  background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
+              background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
               boxSizing: 'border-box',
             },
             '& .MuiBackdrop-root': {

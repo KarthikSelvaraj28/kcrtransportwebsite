@@ -36,44 +36,24 @@ html, body {
 /* Nav Button base style */
 .nav-button {
   position: relative;
-  overflow: hidden;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 15px;
   padding: 10px 15px;
   color: #3a1681;
-}
-
-/* Decorative underline and border */
-.nav-button::after,
-.nav-button::before {
-  transition: none;
-}
-
-/* ACTIVE link decoration */
-.nav-button.active-link::after {
-  width: 100%;
-  left: 0;
-}
-.nav-button.active-link::before {
-  transform: scaleY(1);
-  opacity: 1;
+  background: transparent;
+  border: none;
 }
 
 /* === Hover Effects ONLY on desktop (≥600px) === */
 @media (min-width: 600px) {
-  .nav-button:hover {
-    transform: scale(1.05);
-    color: #7681B3;
-  }
-
   .nav-button::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 0;
     width: 0%;
-    height: 2px;
+    height: 3px;
     background-color: #3a1681;
     transition: width 0.3s ease, left 0.3s ease;
   }
@@ -83,24 +63,18 @@ html, body {
     left: 0;
   }
 
-  .nav-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid #3a1681;
-    transform: scaleY(2);
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-    z-index: -1;
+  .nav-button:hover {
+    background: transparent !important;
+    color: #3a1681;
   }
+}
 
-  .nav-button:hover::before {
-    transform: scaleY(1);
-    opacity: 1;
-  }
+/* Active nav link underline */
+.nav-button.active-link::after {
+  content: '';
+  position: absolute;
+ 
+  background-color: transparent;
 }
 
 /* Hide top contact in mobile */
