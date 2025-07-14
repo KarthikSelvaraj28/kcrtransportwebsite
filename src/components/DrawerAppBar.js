@@ -234,7 +234,52 @@ function DrawerAppBar(props) {
             },
           }}
         >
+          
           {drawer}
+          <Box
+  sx={{
+    mt: 4,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: 2,
+    fontFamily: 'Poppins, sans-serif',
+  }}
+>
+  <a
+    href="mailto:kcrtransport@gmail.com"
+    style={{
+      display: 'flex',
+      alignItems: 'left',
+      gap: 8,
+      textDecoration: 'none',
+      color: '#3a1681',
+      fontWeight: 600,
+    }}
+  >
+    <EmailOutlinedIcon sx={{ fontSize: 22, color: "#3a1681" }} />
+    <span>kcrtransport@gmail.com</span>
+  </a>
+  <a
+    href="https://wa.me/919944651308"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: 'flex',
+    // alignItems: 'left',
+      gap: 8,
+     // justifyContent:"flex-start",
+      textDecoration: 'none',
+      color: '#3a1681',
+      fontWeight: 600,
+    }}
+  >
+    <WhatsAppIcon sx={{ fontSize: 22, color: "#3a1681" }} />
+    <span>9944651308</span>
+  </a>
+</Box>
+
+          
         </Drawer>
       </Box>
 
