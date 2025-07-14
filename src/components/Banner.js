@@ -21,7 +21,7 @@ THINK TRANSPORTATION THINK US</span>
           <Grid size={{ xs: 12,  md: 8 }} sx={{ textAlign:"center"}}   >
 <Box
   component="img"
-  src="/images/bannerbus.png"
+  src="/images/banner.png"
   alt="KCR Logo"
   sx={{
    
