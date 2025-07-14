@@ -21,7 +21,7 @@ const Banner = () => {
           <Grid size={{ xs: 12,  md: 8 }} sx={{ textAlign:"center"}}   >
 <Box
   component="img"
-  src="/images/banners.png"
+  src="/images/mohbann.png"
   alt="KCR Logo"
   sx={{
    
