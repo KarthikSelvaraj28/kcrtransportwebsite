@@ -276,7 +276,7 @@ function DrawerAppBar(props) {
             '& .MuiDrawer-paper': {
               width: drawerWidth,
               height: '100vh',
-              background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
+            //  background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
               boxSizing: 'border-box',
             },
             '& .MuiBackdrop-root': {
