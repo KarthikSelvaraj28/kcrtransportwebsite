@@ -144,11 +144,12 @@ function DrawerAppBar(props) {
       <CssBaseline />
       <AppBar
         component="nav"
+        position="fixed"
         elevation={0}
         sx={{
           background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
           color: '#3a1681',
-          position: 'sticky',
+          //position: 'sticky',
           top: 0,
           zIndex: 999,
         }}
