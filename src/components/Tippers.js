@@ -58,7 +58,6 @@ const Tippers = () => {
             >
               TIPPERS
             </Typography>
-
             <Typography
               variant="h3"
               component="h4"
@@ -110,7 +109,6 @@ const Tippers = () => {
             sx={{
               p: { xs: 2, sm: 3 },
               borderRadius: 2,
-             // backgroundColor: '#fff',
               boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
               height: '100%',
               display: 'flex',
@@ -121,16 +119,13 @@ const Tippers = () => {
             <Box
       component="img"
       src="/images/Tippers.png"
-              alt="Tipper Vehicle"
-              
+      alt="Tipper Vehicle"   
       sx={{
         width: {xs:"100%",md:"auto"},
         height: 'auto',
         objectFit: 'cover',
-       
       }}
     />
-           
           </Box>
         </Grid>
       </Grid>

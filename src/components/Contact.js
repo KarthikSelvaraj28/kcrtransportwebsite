@@ -7,8 +7,6 @@ const Contact = () => {
       <Box
         sx={{
           background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6);',
-         
-          //px: { xs: 2, sm: 4, md: 6 },
           py: { xs: 4, sm: 5 },
         }}
       >
@@ -16,7 +14,6 @@ const Contact = () => {
           container
           spacing={4}
          justifyContent="space-around"
-      
           alignItems="flex-start"
         >
           {/* Logo & Title */}

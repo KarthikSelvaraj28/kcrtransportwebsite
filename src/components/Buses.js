@@ -1,25 +1,21 @@
 import { Box, Grid, Typography, Paper } from "@mui/material";
-
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 
 const Buses = () => {
   return (
     
-    <section id="buses" >
-    <h1 style={{
+        <section id="buses" >
+        <h1 style={{
   textAlign: "center",
   fontSize: "2.5rem",
   fontWeight: "600",
   color: "#3a1681",
   fontFamily: "Poppins, sans-serif",
   textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
-  
   marginBottom: "0.5rem"
 }}>
-  Buses
+ Buses
 </h1>
-
-
       <Grid
         container
         spacing={3}
@@ -56,7 +52,6 @@ const Buses = () => {
   }}
 >
   PUBLIC  TRANSPORT
-  
 </Typography>
 <Typography
   variant="h3"
@@ -69,9 +64,7 @@ const Buses = () => {
     mt:1,
   }}
 >
- 
     Andhra to Telangana: 3 Designated Routes Operated by Leading Brands
- 
 </Typography>
 
 <Typography
@@ -95,7 +88,6 @@ const Buses = () => {
 
           </Paper>
         </Grid>
-
         <Grid
           size={{
             xs: 12,
@@ -104,8 +96,7 @@ const Buses = () => {
           sx={{
         
            textAlign:"center"
-          }}
-           
+          }} 
         >
           <Box
             component="img"
@@ -122,7 +113,6 @@ const Buses = () => {
           />
         </Grid>
       </Grid>
-
       <Grid
         container
         spacing={3}
@@ -148,12 +138,10 @@ const Buses = () => {
             sx={{
               width: {xs:"100%",md:"90%",xl:"auto"},
         height: 'auto',
-        objectFit: 'cover',
-             
+        objectFit: 'cover', 
             }}
           />
         </Grid>
-
         <Grid
           size={{
             xs: 12,
@@ -164,16 +152,12 @@ const Buses = () => {
             elevation={3}
             sx={{
               p: { xs: 5, sm: 8 },
-             // py:{xs:5, sm: 5},
-            //  backgroundColor:"red",
               height:"100%",
               borderRadius: 2,
               backgroundColor: "#fff",
               boxShadow: "0 4px 12px rgba(225, 212, 212, 0.1)",
             }}
           >
-
-
             <Typography
   variant="h3"
   component="h4"
@@ -196,14 +180,10 @@ const Buses = () => {
      color: "#85a1ce",
     fontFamily: "Poppins, sans-serif",
     mt:1,
-  }}
->
-
+  }}>
 
     12 to 45 Seater Vehicles for Corporate Transport
-
 </Typography>
-
 <Typography
   sx={{
     mt: 2,
@@ -214,10 +194,8 @@ const Buses = () => {
     ml:-1
   }}
 >
-
-  
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 12 to 45 seater staff buses available for leading companies</p>
-    <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  />Client details available below</p>
+  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  />Client details available below</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Neat & clean buses with well-maintained interiors</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Punctual service with GPS tracking in every vehicle</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 24/7 operations with trained support personnel</p>
@@ -232,6 +210,3 @@ const Buses = () => {
 };
 
 export default Buses;
-
-
-

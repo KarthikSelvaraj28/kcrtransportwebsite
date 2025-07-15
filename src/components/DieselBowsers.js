@@ -113,7 +113,8 @@ const DieselBowsers = () => {
                 mt: 1,
               }}
             >
-DIESEL BOWSER Available 1kl to 6kl            </Typography>
+DIESEL BOWSER Available 1kl to 6kl
+</Typography>
 
             {/* Bullet Points */}
             <Box sx={{ mt: 2,ml:-1 }}>

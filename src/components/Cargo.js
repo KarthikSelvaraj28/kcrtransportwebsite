@@ -18,8 +18,8 @@ const Cargo = () => {
           background: 'radial-gradient(rgba(72, 183, 214, 0.35), #ffffff)',
           px: { xs: 1, sm: 2, md: 4 }, // Reduced side padding
           py: { xs: 2, md: 6 },
-        //  maxWidth: '1400px',         // Limit section width
-        //  mx: 'auto',                 // Center it horizontally
+        
+    
         }}
       >
         {/* Section Title */}
@@ -41,20 +41,12 @@ const Cargo = () => {
   >
   <Grid item xs={12} size={{xs:12,md:6}}  >
     {/* Card 1 */}
-
-
-
-        
             <Card 
               sx={{
                 borderRadius: 3,
                 boxShadow: 4,
                 backgroundColor: '#fff',
-               // display: 'flex',
-               // flexDirection: 'column',
-               // height: '100%',
                margin:"0 auto",
-
                maxWidth: {xs:"350px",md:"550px"} 
               }}
             >
@@ -124,7 +116,6 @@ const Cargo = () => {
               </CardContent>
             </Card>
           </Grid>
-
           {/* === Card 2 === */}
   <Grid item xs={12} size={{xs:12,md:6}} >
             <Card

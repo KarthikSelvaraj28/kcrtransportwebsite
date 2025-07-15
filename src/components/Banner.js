@@ -4,8 +4,8 @@ const Banner = () => {
   return (
     <section id="Banner" className="banner-section">
         
-        <Grid container spacing={{ xs: 1, md: 3 }} justifyContent={"center"} alignItems="center"  >
-          <Grid size={{ xs: 12,  md: 4 }} justifyContent={"center"}>
+        <Grid container spacing={{ xs: 1, md: 3 }} justifyContent={"center"} alignItems="center" >
+          <Grid size={{ xs: 12,  md: 4 }} justifyContent={"center"} >
             <Typography sx={{fontSize: {
       lg: 35,
       md: 30,
@@ -24,18 +24,13 @@ const Banner = () => {
   src="/images/banner.png"
   alt="KCR Logo"
   sx={{
-   
     height: 'auto', // maintain aspect ratio
     maxWidth: '100%'
   }}
      />
-          </Grid>
-        </Grid>
-  
-      
-      
-    </section>
+</Grid>
+</Grid>
+</section>
   );
 };
-
 export default Banner;
