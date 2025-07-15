@@ -55,7 +55,7 @@ const Cargo = () => {
                // height: '100%',
                margin:"0 auto",
 
-               maxWidth: {xs:"400px",md:"550px"} 
+               maxWidth: {xs:"350px",md:"550px"} 
               }}
             >
               <CardHeader
@@ -136,7 +136,7 @@ const Cargo = () => {
                // flexDirection: 'column',
                // height: '100%',
                 margin:"0 auto",
-               maxWidth: {xs:"400px",md:"550px"} 
+               maxWidth: {xs:"350px",md:"550px"} 
               }}
             >
               <CardHeader
