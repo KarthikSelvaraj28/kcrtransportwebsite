@@ -18,8 +18,8 @@ const Cargo = () => {
           background: 'radial-gradient(rgba(72, 183, 214, 0.35), #ffffff)',
           px: { xs: 1, sm: 2, md: 4 }, // Reduced side padding
           py: { xs: 2, md: 6 },
-          maxWidth: '1400px',         // Limit section width
-          mx: 'auto',                 // Center it horizontally
+        //  maxWidth: '1400px',         // Limit section width
+        //  mx: 'auto',                 // Center it horizontally
         }}
       >
         {/* Section Title */}
@@ -37,21 +37,25 @@ const Cargo = () => {
           Cargo
         </Typography>
 
-<Grid container spacing={4} justifyContent="center" maxWidth="xl" mx="auto">
-  <Grid item xs={12} md={5.5}>
+<Grid container spacing={4} justifyContent={"center"} 
+  >
+  <Grid item xs={12} size={{xs:12,md:6}}  >
     {/* Card 1 */}
 
 
 
         
-            <Card
+            <Card 
               sx={{
                 borderRadius: 3,
                 boxShadow: 4,
                 backgroundColor: '#fff',
-                display: 'flex',
-                flexDirection: 'column',
-                height: '100%',
+               // display: 'flex',
+               // flexDirection: 'column',
+               // height: '100%',
+               margin:"0 auto",
+
+               maxWidth: {xs:"400px",md:"550px"} 
               }}
             >
               <CardHeader
@@ -75,8 +79,8 @@ const Cargo = () => {
                 image="/images/container.png"
                 alt="Cargo Vehicle"
                 sx={{
-                  width: '100%',
-                  height: { xs: 200, sm: 250, md: 300 },
+                  width: "100%",
+                  height: "auto",
                   objectFit: 'cover',
                 }}
               />
@@ -122,15 +126,17 @@ const Cargo = () => {
           </Grid>
 
           {/* === Card 2 === */}
-  <Grid item xs={12} md={5.5}>
+  <Grid item xs={12} size={{xs:12,md:6}} >
             <Card
               sx={{
                 borderRadius: 3,
                 boxShadow: 4,
                 backgroundColor: '#fff',
-                display: 'flex',
-                flexDirection: 'column',
-                height: '100%',
+               // display: 'flex',
+               // flexDirection: 'column',
+               // height: '100%',
+                margin:"0 auto",
+               maxWidth: {xs:"400px",md:"550px"} 
               }}
             >
               <CardHeader
@@ -154,8 +160,8 @@ const Cargo = () => {
                 image="/images/Freezer.png"
                 alt="Medical Freezer"
                 sx={{
-                  width: '100%',
-                  height: { xs: 200, sm: 250, md: 300 },
+                  width: "100%",
+                  height: "auto",
                   objectFit: 'cover',
                 }}
               />
