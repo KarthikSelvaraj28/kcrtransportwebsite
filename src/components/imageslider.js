@@ -61,6 +61,7 @@ const ImageSlider = () => {
 };
 
   return (
+
     <Box sx={{ width: '100%', overflow: 'hidden', py: 2 }}>
       <Typography
         variant="h3"
@@ -73,8 +74,10 @@ const ImageSlider = () => {
           marginBottom: '1.5rem',
         }}
       >
+        
         Our Clients
       </Typography>
+      
 
       <Slider {...settings}>
         {images.map((img, index) => (

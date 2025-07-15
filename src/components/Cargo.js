@@ -7,7 +7,6 @@ import {
   Grid,
   Box,
   CardHeader,
-
 } from '@mui/material';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 
@@ -17,9 +16,13 @@ const Cargo = () => {
       <Box
         sx={{
           background: 'radial-gradient(rgba(72, 183, 214, 0.35), #ffffff)',
-          p: { xs: 2, md: 6 },
+          px: { xs: 1, sm: 2, md: 4 }, // Reduced side padding
+          py: { xs: 2, md: 6 },
+          maxWidth: '1400px',         // Limit section width
+          mx: 'auto',                 // Center it horizontally
         }}
       >
+        {/* Section Title */}
         <Typography
           variant="h3"
           sx={{
@@ -34,9 +37,13 @@ const Cargo = () => {
           Cargo
         </Typography>
 
-        <Grid container spacing={6} justifyContent="center">
-          {/* First Card */}
-          <Grid item xs={12} md={6}>
+<Grid container spacing={4} justifyContent="center" maxWidth="xl" mx="auto">
+  <Grid item xs={12} md={5.5}>
+    {/* Card 1 */}
+
+
+
+        
             <Card
               sx={{
                 borderRadius: 3,
@@ -86,7 +93,8 @@ const Cargo = () => {
                   Features
                 </Typography>
 
-                <Box component="ul" sx={{ pl: 2, mb: 3 }}>
+                {/* Features List */}
+                <Box sx={{ mt: 2, ml: -1 }}>
                   {[
                     '20ft to 32ft Container Options',
                     'Payload: 5 to 32000 Tonner',
@@ -104,21 +112,17 @@ const Cargo = () => {
                         fontFamily: 'Poppins, sans-serif',
                       }}
                     >
-                      <ArrowRightOutlinedIcon
-                        sx={{ color: '#85a1ce', mr: 1 }}
-                      />
+                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce', mr: 1 }} />
                       {text}
                     </Box>
                   ))}
                 </Box>
-
-                
               </CardContent>
             </Card>
           </Grid>
 
-          {/* Second Card */}
-          <Grid item xs={12} md={6}>
+          {/* === Card 2 === */}
+  <Grid item xs={12} md={5.5}>
             <Card
               sx={{
                 borderRadius: 3,
@@ -168,7 +172,8 @@ const Cargo = () => {
                   Service Highlights
                 </Typography>
 
-                <Box component="ul" sx={{ pl: 2, mb: 3 }}>
+                {/* Highlights List */}
+                <Box sx={{ mt: 2, ml: -1 }}>
                   {[
                     '-4°C to -16°C Temperature Freezers',
                     'PAN India Medicine Delivery',
@@ -186,15 +191,11 @@ const Cargo = () => {
                         fontFamily: 'Poppins, sans-serif',
                       }}
                     >
-                      <ArrowRightOutlinedIcon
-                        sx={{ color: '#85a1ce', mr: 1 }}
-                      />
+                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce', mr: 1 }} />
                       {text}
                     </Box>
                   ))}
                 </Box>
-
-               
               </CardContent>
             </Card>
           </Grid>
