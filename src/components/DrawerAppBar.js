@@ -228,15 +228,8 @@ function DrawerAppBar(props) {
                     fontFamily: 'Poppins, sans-serif',
                     color: '#3a1681',
                     transition: 'transform 0.3s ease, color 0.3s ease',
-                    '&:hover': {
-                      //transform: 'scale(1.05)',
-                      //color: '#536e97ff',
-                      background:"transparent"
-                    },
-                    '&.active-link': {
-                      borderBottom: '2px solid #6715e3',
-                      color: '#7681B3',
-                    },
+                   
+                    
                   }}
                 >
                   {item.label}
