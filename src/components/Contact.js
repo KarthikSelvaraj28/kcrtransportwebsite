@@ -25,13 +25,13 @@ const Contact = () => {
               <img
                 src="/images/logo.svg" // Your logo path
                 alt="KCR Logo"
-                style={{ height: '50px', width: '40px', marginRight: '12px' }}
+                style={{ height: '60px', width: '50px', marginRight: '12px' }}
               />
               <Typography
                 variant="h6"
                 sx={{
-                  fontFamily: 'Poppins, sans-serif',
-                  fontWeight: 900,
+                  fontFamily: 'serif',
+                  fontWeight: 800,
                   letterSpacing: '1px',color:'#3a1681',
                   
                   fontSize: { xs: '24px', sm: '30px', md: '36px' },
