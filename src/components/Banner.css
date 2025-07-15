@@ -11,6 +11,10 @@
   padding: 40px 20px;
   text-align: center;
 }
+.banner-section {
+  min-height: 100vh;
+}
+
 
 /* Main Heading Animation */
 .banner-section strong {
