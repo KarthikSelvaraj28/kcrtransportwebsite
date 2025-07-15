@@ -132,9 +132,6 @@ const Cargo = () => {
                 borderRadius: 3,
                 boxShadow: 4,
                 backgroundColor: '#fff',
-               // display: 'flex',
-               // flexDirection: 'column',
-               // height: '100%',
                 margin:"0 auto",
                maxWidth: {xs:"350px",md:"550px"} 
               }}

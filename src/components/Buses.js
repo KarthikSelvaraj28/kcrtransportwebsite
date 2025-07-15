@@ -163,7 +163,9 @@ const Buses = () => {
           <Paper
             elevation={3}
             sx={{
-              p: { xs: 5, sm: 5 },
+              p: { xs: 5, sm: 8 },
+             // py:{xs:5, sm: 5},
+            //  backgroundColor:"red",
               height:"100%",
               borderRadius: 2,
               backgroundColor: "#fff",
