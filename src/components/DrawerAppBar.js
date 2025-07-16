@@ -240,21 +240,24 @@ function DrawerAppBar(props) {
           </Box>
 
           {/* Contact Info (desktop) */}
-          <Box className="contact-icons">
-            <a href="mailto:kcrtransport@gmail.com" className="contact-link">
-              <EmailOutlinedIcon sx={{ fontSize: 22, color: "#7681B3" }} />
-              <span className="contact-text">kcrtransport@gmail.com</span>
-            </a>
-            <a
-              href="https://wa.me/919944651308"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-link"
-            >
-              <WhatsAppIcon sx={{ fontSize: 22, color: "#7681B3" }} />
-              <span className="contact-text">9944651308</span>
-            </a>
-          </Box>
+         <Box className="contact-icons">
+  <a href="mailto:kcrtransport@gmail.com" className="contact-link">
+    <EmailOutlinedIcon sx={{ fontSize: 22, color: "#D44638" }} />
+    <span className="contact-text">kcrtransport@gmail.com</span>
+  </a>
+
+  <a
+    href="https://wa.me/919944651308"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-link"
+  >
+    <WhatsAppIcon sx={{ fontSize: 22, color: "#25D366" }} />
+    <span className="contact-text">9944651308</span>
+  </a>
+</Box>
+
+
         </Toolbar>
       </AppBar>
 

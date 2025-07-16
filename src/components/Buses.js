@@ -126,13 +126,13 @@ Operated under the expertise of a reputed brand in the sector
         >
           <Box
             component="img"
-            src="/images/pubbus.png"
+            src="/images/karbu.png"
             alt="Bus"
           
             sx={{
              width: {
               xs:"100%",
-              lg:"auto"
+              lg:"100%"
              },
               height: "auto",
             }}
