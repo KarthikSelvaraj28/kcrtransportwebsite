@@ -116,7 +116,7 @@ const DieselBowsers = () => {
 Diesel bowser available our fleet badge</Typography>
 
             {/* Bullet Points */}
-            <Box sx={{ mt: 2,ml:-1 ,}}>
+            <Box sx={{ mt: 2,ml:1 ,}}>
             
 <Typography
   sx={{
@@ -125,7 +125,7 @@ Diesel bowser available our fleet badge</Typography>
     color: "#333",
     fontFamily: "Poppins, sans-serif",
     lineHeight: 1.6,
-    ml:-1
+    ml:-2,
   }}
 >
 
@@ -144,7 +144,7 @@ Diesel bowser available our fleet badge</Typography>
                 fontWeight: 'bold',
                 color: '#85a1ce',
                 fontFamily: 'Poppins, sans-serif',
-                mt: 1,
+              //  mt: 1,
                 
               }}
             >

@@ -37,6 +37,20 @@ const Contact = () => {
               >
                 KCR TRANSPORT
               </Typography>
+
+              <Typography
+    variant="subtitle2"
+    sx={{
+      fontFamily: 'serif',
+      fontWeight: 500,
+      color: '#3a1681',
+      fontSize: { xs: '12px', sm: '14px', md: '16px' },
+      letterSpacing: '0.5px',
+      textAlign: 'center',
+    }}
+  >
+    Since 2007
+  </Typography>
             </Box>
           </Grid>
 

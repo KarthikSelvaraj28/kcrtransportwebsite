@@ -37,9 +37,9 @@ const Cargo = () => {
           Cargo
         </Typography>
 
-<Grid container spacing={4} justifyContent={"center"} 
+<Grid container spacing={4} alignItems="stretch" justifyContent={"center"} 
   >
-  <Grid item xs={12} size={{xs:12,md:6}}  >
+  <Grid  size={{xs:12,md:6}}  >
     {/* Card 1 */}
             <Card 
               sx={{
@@ -47,6 +47,7 @@ const Cargo = () => {
                 boxShadow: 4,
                 backgroundColor: '#fff',
                margin:"0 auto",
+               height: '100%',
                maxWidth: {xs:"350px",md:"550px"} 
               }}
             >
@@ -59,7 +60,7 @@ const Cargo = () => {
                       fontSize: { xs: 18, sm: 20, md: 22 },
                       fontWeight: 'bold',
                       color: '#3a1681',
-                      fontFamily: 'Poppins, sans-serif',
+                      fontFamily: 'serif',
                     }}
                   >
                     CARGO CONTAINER TRANSPORT
@@ -81,7 +82,8 @@ const Cargo = () => {
                   variant="subtitle1"
                   sx={{
                     fontWeight: 600,
-                    mb: 1,
+                    mb: 2,
+                    ml:2,
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
                   }}
@@ -90,7 +92,7 @@ const Cargo = () => {
                 </Typography>
 
                 {/* Features List */}
-                <Box sx={{ mt: 2, ml: -1 }}>
+                <Box sx={{ mt: 2, ml: 1 }}>
                   {[
                     '20ft to 32ft Container Options',
                     'Payload: 5 to 32000 Tonner',
@@ -103,6 +105,7 @@ const Cargo = () => {
                         display: 'flex',
                         alignItems: 'flex-start',
                         mb: 1,
+                      
                         fontSize: { xs: 14, sm: 15 },
                         color: '#333',
                         fontFamily: 'Poppins, sans-serif',
@@ -117,13 +120,14 @@ const Cargo = () => {
             </Card>
           </Grid>
           {/* === Card 2 === */}
-  <Grid item xs={12} size={{xs:12,md:6}} >
+  <Grid item  size={{xs:12,md:6}} >
             <Card
               sx={{
                 borderRadius: 3,
                 boxShadow: 4,
                 backgroundColor: '#fff',
                 margin:"0 auto",
+                height: '100%',
                maxWidth: {xs:"350px",md:"550px"} 
               }}
             >
@@ -136,7 +140,7 @@ const Cargo = () => {
                       fontSize: { xs: 18, sm: 20, md: 22 },
                       fontWeight: 'bold',
                       color: '#3a1681',
-                      fontFamily: 'Poppins, sans-serif',
+                      fontFamily: 'serif',
                     }}
                   >
                     MEDICAL FREEZER CONTAINER
@@ -159,6 +163,8 @@ const Cargo = () => {
                   sx={{
                     fontWeight: 600,
                     mb: 1,
+                                        ml:2,
+
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
                   }}
@@ -167,7 +173,7 @@ const Cargo = () => {
                 </Typography>
 
                 {/* Highlights List */}
-                <Box sx={{ mt: 2, ml: -1 }}>
+                <Box sx={{ mt: 2, ml: 1 }}>
                   {[
                     '-4°C to -16°C Temperature Freezers',
                     'Freezer container all types and size',

@@ -23,13 +23,14 @@ const Buses = () => {
         sx={{
           background:
             "linear-gradient(to top, rgba(72, 183, 214, 0.35) 0%, rgba(255, 255, 255, 1) 100%)",
-          p: 3,
+          p: 2.5,
         }}
       >
         <Grid
           size={{
             xs: 12,
             md: 6,
+            
           }}
         >
           <Paper
@@ -81,16 +82,16 @@ Operated under the expertise of a reputed brand in the sector
   }}
 >
 
-  <p style={{ display: "flex", alignItems: "center" }}>
-    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+  <p style={{ display: "flex", alignItems: "flex-start" }}>
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1,verticalAlign:"top" }} />
     Leading operators contracted for 3 routes
   </p>
 
-  <p style={{ display: "flex", alignItems: "center" }}>
+  <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
     Andhra to Telangana: 3 designated routes run by top operators
   </p>
-  <p style={{ display: "flex", alignItems: "center" }}>
+  <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
     Tamil Nadu: 5 new routes launching soon
   </p>
@@ -98,15 +99,15 @@ Operated under the expertise of a reputed brand in the sector
   {/* SUB-POINT with smaller dot icon */}
   
 
-  <p style={{ display: "flex", alignItems: "center" }}>
+  <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
     Own operations: 2 upcoming routes
   </p>
-   <p style={{ display: "flex", alignItems: "center", marginLeft: "20px" }}>
+   <p style={{ display: "flex", marginLeft: "30px" }}>
     <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
     Vellore to Tiruchendur – launching soon
   </p>
-   <p style={{ display: "flex", alignItems: "center", marginLeft: "20px" }}>
+   <p style={{ display: "flex", marginLeft: "30px" }}>
     <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
     Vellore to Nagapattinam – launching soon
   </p>
@@ -145,7 +146,7 @@ Operated under the expertise of a reputed brand in the sector
         sx={{
           background:
             "linear-gradient(to bottom, rgba(72, 183, 214, 0.35) 0%, rgba(255, 255, 255, 1) 100%)",
-          p: 5,
+          p: 2.5,
         }}
       >
         <Grid
@@ -178,9 +179,10 @@ Operated under the expertise of a reputed brand in the sector
           <Paper
             elevation={3}
             sx={{
-              p: { xs: 5, sm: 8 },
+              p: { xs: 5, sm: 5 },
               height:"100%",
               borderRadius: 2,
+            
               backgroundColor: "#fff",
               boxShadow: "0 4px 12px rgba(225, 212, 212, 0.1)",
             }}
