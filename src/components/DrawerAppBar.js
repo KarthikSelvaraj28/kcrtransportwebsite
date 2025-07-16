@@ -239,7 +239,7 @@ function DrawerAppBar(props) {
             </Scrollspy>
           </Box>
 
-          {/* Contact Info (desktop) */}
+        
         {/* Contact Info (desktop) */}
 <Box className="contact-icons">
   <a href="mailto:kcrtransport@gmail.com" className="contact-link">
