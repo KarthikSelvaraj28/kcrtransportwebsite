@@ -22,7 +22,7 @@ const DieselBowsers = () => {
           fontWeight: '600',
           color: '#3a1681',
           pt: '20px',
-          fontFamily: 'Poppins, sans-serif',
+  fontFamily:"serif",
           textAlign: 'center',
           marginBottom: '1.5rem',
         }}
@@ -113,37 +113,62 @@ const DieselBowsers = () => {
                 mt: 1,
               }}
             >
-DIESEL BOWSER Available 1kl to 6kl
-</Typography>
+Diesel bowser available our fleet badge</Typography>
 
             {/* Bullet Points */}
-            <Box sx={{ mt: 2,ml:-1 }}>
-              {[
-               ' Kanyakumari Trivandrum Highway',
-'Andra sricity Projects',
-'Tamilnadu Fishing corporation', 
-'Road side construction sites provide', 
-'the leading companies contract provides 1000 liters to 6000 liters', 
-'Diesel bowser available our fleet badge'
-              ].map((item, index) => (
-                <Box
-                  key={index}
-                  sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}
-                >
-                  <ArrowRightOutlinedIcon
-                    sx={{ color: '#85a1ce', mr: 1, mt: '3px' }}
-                  />
-                  <Typography
-                    sx={{
-                      fontSize: { lg: 15, md: 14, sm: 15, xs: 14 },
-                      color: '#333',
-                      fontFamily: 'Poppins, sans-serif',
-                    }}
-                  >
-                    {item}
-                  </Typography>
-                </Box>
-              ))}
+            <Box sx={{ mt: 2,ml:-1 ,}}>
+            
+<Typography
+  sx={{
+    mt: 2,
+    fontSize: { lg: 15, md: 12, sm: 15, xs: 14 },
+    color: "#333",
+    fontFamily: "Poppins, sans-serif",
+    lineHeight: 1.6,
+    ml:-1
+  }}
+>
+
+ <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",fontFamily: "Poppins, sans-serif"}}  /> Diesel Bowser available 1kl to 6kl</p>
+
+  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}   /> Under the leading companys contract, provisions range from 1,000 to 6,000 liters</p>
+
+   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> PESO License and calibrated tanks available</p>
+
+</Typography>
+                <Typography
+              variant="h3"
+              component="h4"
+              sx={{
+                fontSize: { lg: 15, md: 20, sm: 20, xs: 20 },
+                fontWeight: 'bold',
+                color: '#85a1ce',
+                fontFamily: 'Poppins, sans-serif',
+                mt: 1,
+                
+              }}
+            >
+Service Highlights</Typography>
+
+<Typography
+  sx={{
+    mt: 2,
+    fontSize: { lg: 15, md: 12, sm: 15, xs: 14 },
+    color: "#333",
+    fontFamily: "Poppins, sans-serif",
+    lineHeight: 1.6,
+    ml:-1
+  }}
+>
+
+                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",}}  /> Tamilnadu Fishing corporation</p>
+
+                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> New NE-7 Construction sites</p>
+
+                <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Kanyakumari Trivandrum Highway</p>
+
+</Typography>
+
             </Box>
           </Paper>
         </Grid>

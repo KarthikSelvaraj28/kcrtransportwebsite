@@ -29,7 +29,7 @@ const Cargo = () => {
             fontSize: { xs: '2rem', md: '2.5rem' },
             fontWeight: 600,
             color: '#3a1681',
-            fontFamily: 'Poppins, sans-serif',
+  fontFamily:"serif",
             textAlign: 'center',
             mb: 4,
           }}
@@ -86,7 +86,7 @@ const Cargo = () => {
                     fontFamily: 'Poppins, sans-serif',
                   }}
                 >
-                  Features
+                  Variants
                 </Typography>
 
                 {/* Features List */}
@@ -170,6 +170,8 @@ const Cargo = () => {
                 <Box sx={{ mt: 2, ml: -1 }}>
                   {[
                     '-4°C to -16°C Temperature Freezers',
+                    'Freezer container all types and size',
+                    '1 Tonner to 32 Tonner(32 Feet) freezer container available',
                     'PAN India Medicine Delivery',
                     'Certified Pharma Transport Vehicles',
                   ].map((text, index) => (

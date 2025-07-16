@@ -17,7 +17,7 @@ const Tippers = () => {
           fontWeight: '600',
           color: '#3a1681',
           pt: '20px',
-          fontFamily: 'Poppins, sans-serif',
+  fontFamily:"serif",
           textAlign: 'center',
           marginBottom: '1.5rem',
         }}
@@ -77,6 +77,7 @@ const Tippers = () => {
               {[
                 '6 Cu.M to 12 Cu.M Tipper Trucks',
                 '7 & 9 Cu.M Ready Mix Concrete (RMC) Available',
+                'M-sand,Blue Metal supply',
                 'Concrete Pump Truck Services',
                 'Flatbed Vehicles for Equipment Transport',
               ].map((item, index) => (

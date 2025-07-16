@@ -69,7 +69,7 @@ const ImageSlider = () => {
           fontSize: { xs: '2rem', md: '2.5rem' },
           fontWeight: '600',
           color: '#3a1681',
-          fontFamily: 'Poppins, sans-serif',
+  fontFamily:"serif",
           textAlign: 'center',
           marginBottom: '1.5rem',
         }}

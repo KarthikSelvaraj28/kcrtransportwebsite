@@ -1,6 +1,7 @@
 import { Box, Grid, Typography, Paper } from "@mui/material";
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
-
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+//import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 const Buses = () => {
   return (
     
@@ -10,7 +11,7 @@ const Buses = () => {
   fontSize: "2.5rem",
   fontWeight: "600",
   color: "#3a1681",
-  fontFamily: "Poppins, sans-serif",
+  fontFamily:"serif",
   textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
   marginBottom: "0.5rem"
 }}>
@@ -64,8 +65,10 @@ const Buses = () => {
     mt:1,
   }}
 >
-    Andhra to Telangana: 3 Designated Routes Operated by Leading Brands
+Operated under the expertise of a reputed brand in the sector
 </Typography>
+
+
 
 <Typography
   sx={{
@@ -74,16 +77,39 @@ const Buses = () => {
     color: "#333",
     fontFamily: "Poppins, sans-serif",
     lineHeight: 1.6,
-    ml:-1
+    ml: -1,
   }}
 >
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Andhra to Telangana: 3 designated routes run by top operators</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}} /> Tamil Nadu: 5 new routes launching soon</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}} /> Leading operators contracted for 3 routes</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}} /> Own operations: 2 upcoming routes</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon  sx={{color:"#85a1ce"}}/> Vellore to Tiruchendur – launching soon</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}} /> Vellore to Nagapattinam – launching soon</p>
+
+  <p style={{ display: "flex", alignItems: "center" }}>
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    Leading operators contracted for 3 routes
+  </p>
+
+  <p style={{ display: "flex", alignItems: "center" }}>
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    Andhra to Telangana: 3 designated routes run by top operators
+  </p>
+  <p style={{ display: "flex", alignItems: "center" }}>
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    Tamil Nadu: 5 new routes launching soon
+  </p>
+
+  {/* SUB-POINT with smaller dot icon */}
   
+
+  <p style={{ display: "flex", alignItems: "center" }}>
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    Own operations: 2 upcoming routes
+  </p>
+   <p style={{ display: "flex", alignItems: "center", marginLeft: "20px" }}>
+    <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
+    Vellore to Tiruchendur – launching soon
+  </p>
+   <p style={{ display: "flex", alignItems: "center", marginLeft: "20px" }}>
+    <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
+    Vellore to Nagapattinam – launching soon
+  </p>
 </Typography>
 
           </Paper>
@@ -100,7 +126,7 @@ const Buses = () => {
         >
           <Box
             component="img"
-            src="/images/Publicbus.png"
+            src="/images/pubbus.png"
             alt="Bus"
           
             sx={{
@@ -133,12 +159,13 @@ const Buses = () => {
         >
           <Box
             component="img"
-            src="/images/staffbus.png"
+            src="/images/staff.png"
             alt="Staff Bus"
             sx={{
               width: {xs:"100%",md:"90%",xl:"auto"},
         height: 'auto',
         objectFit: 'cover', 
+        borderRadius:"10px",
             }}
           />
         </Grid>
@@ -194,11 +221,11 @@ const Buses = () => {
     ml:-1
   }}
 >
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 12 to 45 seater staff buses available for leading companies</p>
+  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 12 to 45 seater staff buses provided for leading companies</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  />Client details available below</p>
+  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 24/7 operations with trained support personnel</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Neat & clean buses with well-maintained interiors</p>
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Punctual service with GPS tracking in every vehicle</p>
-  <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> 24/7 operations with trained support personnel</p>
 
 </Typography>
 
