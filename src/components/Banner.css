@@ -1,60 +1,44 @@
-.banner-section {
-  padding: 20px;
+.slide-in-left {
+  animation: slideInLeft 1s ease-out;
 }
 
-.banner-section h4{
-  color: #004080;
-  
-  text-align: center;
-}
-.banner-section {
-  padding: 40px 20px;
-  text-align: center;
-    min-height: 80%; /* This ensures full screen height */
-
+.slide-in-top {
+  animation: slideInTop 1s ease-out;
 }
 
-
-/* Main Heading Animation */
-.banner-section strong {
-  display: inline-block;
-  animation: glowSlideIn 1.2s ease-out forwards;
-  transform: scale(0.8) translateY(40px);
-  opacity: 0;
+.slide-in-right {
+  animation: slideInRight 1s ease-out;
 }
 
-/* Subheading Animation */
-.banner-section span {
-  display: inline-block;
-  margin-top: 10px;
-  
-  letter-spacing: 2px;
-  animation: typingFade 1.5s infinite alternate;
- 
-}
-
-/* Glow + Slide Animation */
-@keyframes glowSlideIn {
-  0% {
-    transform: scale(0.8) translateY(40px);
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
     opacity: 0;
-    text-shadow: none;
   }
-  100% {
-    transform: scale(1) translateY(0);
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }
 
-/* Typing effect with fade */
-@keyframes typingFade {
-  0% {
-    transform: scale(1);
+@keyframes slideInTop {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-
-100% {
-    transform: scale(1.05);
-    color: #b3acc2;
-}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
