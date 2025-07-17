@@ -1,40 +1,21 @@
-.slide-in-left {
-  animation: slideInLeft 1s ease-out;
+.bannerContainer {
+  width: 100%;
+  overflow: hidden;
 }
 
-.slide-in-top {
-  animation: slideInTop 1s ease-out;
+.bannerImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  animation: slideIn 1s ease-out forwards;
+  opacity: 0;
 }
 
-.slide-in-right {
-  animation: slideInRight 1s ease-out;
-}
-
-@keyframes slideInLeft {
+/* Slide in from left */
+@keyframes slideIn {
   from {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInTop {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    transform: translateX(100px);
+    transform: translateX(-100%);
     opacity: 0;
   }
   to {
