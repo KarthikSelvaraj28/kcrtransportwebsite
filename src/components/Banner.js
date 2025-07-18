@@ -69,7 +69,8 @@ const Banner = () => {
                 color: '#333',
                 fontFamily: 'Poppins, sans-serif',
                 lineHeight: 1.8,
-                //textTransform: 'uppercase',
+               // textTransform: 'uppercase',
+                fontStyle:'italic',
               }}
             >
               To revolutionize the transport industry by integrating technology and eco-friendly practices for better service and sustainability.
@@ -114,6 +115,7 @@ const Banner = () => {
                 color: '#333',
                 fontFamily: 'Poppins, sans-serif',
                 lineHeight: 1.8,
+                fontStyle:'italic',
               }}
             >
               To build a brand that stands for timely delivery, professionalism, and customer-first service, future of transportation by adopting smart logistics, sustainable practices, and digital solutions in the transportation sector.
