@@ -8,12 +8,11 @@ import 'slick-carousel/slick/slick-theme.css';
 const bannerImages = [
   '/images/bannerbg.png',
   '/images/karbanner.png',
-  
 ];
 
 const Banner = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 2000,
     autoplay: true,
@@ -29,8 +28,9 @@ const Banner = () => {
     <Box
       sx={{
         width: '100%',
-        height: { xs: '250px', sm: '400px', md: '600px' },
+        height: '100vh', // 👈 Full screen height
         overflow: 'hidden',
+        position: 'relative',
       }}
     >
       <Slider {...settings}>
@@ -42,7 +42,7 @@ const Banner = () => {
             alt={`Banner ${index}`}
             sx={{
               width: '100%',
-              height: '100%',
+              height: '100vh', // 👈 Ensure each image also fills the screen
               objectFit: 'cover',
             }}
           />
