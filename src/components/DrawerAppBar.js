@@ -152,6 +152,7 @@ function DrawerAppBar(props) {
           //position: 'sticky',
           top: 0,
           zIndex: 999,
+          minHeight:{xs:64}
         }}
       >
         <Toolbar
@@ -159,7 +160,7 @@ function DrawerAppBar(props) {
             justifyContent: 'space-between',
             flexWrap: 'wrap',
             alignItems: 'center',
-            minHeight: { xs: 64, sm: 80 },
+            maxHeight: { xs: 64, sm: 80 },
           }}
         >
           {/* Left Section: Logo and Title */}
