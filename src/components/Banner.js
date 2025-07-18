@@ -42,8 +42,8 @@ const Banner = () => {
             alt={`Banner ${index}`}
             sx={{
               width: '100%',
-              height: '100%',
-              //objectFit: 'cover',
+              height: 'auto',
+              objectFit: 'cover',
             }}
           />
         ))}
