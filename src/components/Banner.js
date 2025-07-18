@@ -6,8 +6,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const bannerImages = [
-  '/images/bannerbg-3.png',
-  '/images/karbanner-2.png',
+  '/images/banner-1.png',
+  '/images/banner-2.png',
   
 ];
 
@@ -22,7 +22,7 @@ const Banner = () => {
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
   };
 
   return (
