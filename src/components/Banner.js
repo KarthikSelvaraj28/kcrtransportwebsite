@@ -58,6 +58,7 @@ const Banner = () => {
                 color: '#3a1681',
                 fontFamily: 'serif',
                 mb: 2,
+                
               }}
             >
               MISSION

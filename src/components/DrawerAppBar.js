@@ -25,7 +25,7 @@ import './DrawerAppBar.css';
 const drawerWidth = '70vw';
 
 const navItems = [
-    { label: 'Home', href: '#banner' },
+    { label: 'Home', href: '#home' },
   { label: 'Buses', href: '#buses' },
   { label: 'Cargo', href: '#cargo' },
   { label: 'Tippers', href: '#tippers' },
@@ -54,7 +54,7 @@ function DrawerAppBar(props) {
         variant="h6"
         sx={{
           my: 2,
-          fontFamily: 'Poppins, sans-serif',
+          fontFamily: 'Montserrat, sans-serif',
           color: '#3a1681',
           fontWeight: 800,
         }}
@@ -105,7 +105,7 @@ function DrawerAppBar(props) {
         gap: 8,
         textDecoration: 'none',
         color: '#3a1681',
-        fontFamily: 'Poppins, sans-serif',
+        fontFamily: 'Montserrat, sans-serif',
         fontWeight: 600,
       }}
     >
@@ -128,7 +128,7 @@ function DrawerAppBar(props) {
         gap: 8,
         textDecoration: 'none',
         color: '#3a1681',
-        fontFamily: 'Poppins, sans-serif',
+        fontFamily: 'Montserrat, sans-serif',
         fontWeight: 600,
       }}
     >
@@ -157,6 +157,7 @@ function DrawerAppBar(props) {
       <AppBar
         component="nav"
         position="fixed"
+        
         elevation={0}
         sx={{
           background: 'linear-gradient(90deg, #7fe5e4, #dcd5f6)',
@@ -185,6 +186,7 @@ function DrawerAppBar(props) {
             }}
           >
             <Box
+            
               component="img"
               src="/images/logo.svg"
               alt="KCR Logo"
@@ -195,6 +197,7 @@ function DrawerAppBar(props) {
             />
             <Typography
               variant="h6"
+               
               sx={{
                 fontFamily:"serif",
                 fontWeight: 800,
@@ -268,6 +271,7 @@ function DrawerAppBar(props) {
     href="https://wa.me/919944651308"
     target="_blank"
     rel="noopener noreferrer"
+    
     className="contact-link"
   >
     <img

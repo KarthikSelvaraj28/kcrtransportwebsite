@@ -16,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      <span id="home"></span>
       <DrawerAppBar />
       <div className="main-content">
         <Banner/>

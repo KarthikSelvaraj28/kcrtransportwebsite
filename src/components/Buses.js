@@ -93,7 +93,7 @@ Operated under the expertise of a reputed brand in the sector
   </p>
   <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
-    Tamil Nadu: 5 new routes launching soon
+    Discover more with 5 new routes from top-tier travel provider's coming soon!
   </p>
 
   {/* SUB-POINT with smaller dot icon */}
