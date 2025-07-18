@@ -160,7 +160,7 @@ Operated under the expertise of a reputed brand in the sector
         >
           <Box
             component="img"
-            src="/images/staffbu.png"
+            src="/images/staff.png"
             alt="Staff Bus"
             sx={{
               width: {xs:"100%",md:"100%",xl:"auto"},

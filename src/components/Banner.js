@@ -66,6 +66,7 @@ const Banner = () => {
                 color: '#333',
                 fontFamily: 'Poppins, sans-serif',
                 lineHeight: 1.8,
+                //textTransform: 'uppercase',
               }}
             >
               To revolutionize the transport industry by integrating technology and eco-friendly practices for better service and sustainability.
