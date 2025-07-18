@@ -6,8 +6,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const bannerImages = [
-  '/images/banner.png',
-  //'/images/karbanner.png',
+  '/images/bannerbg-3.png',
+  '/images/karbanner-2.png',
   
 ];
 
@@ -29,8 +29,9 @@ const Banner = () => {
     <Box
       sx={{
         width: '100%',
-        height: { xs: '250px', sm: '400px', md: '600px' },
-        overflow: 'hidden',
+      
+        //height: { xs: '250px', sm: '400px', md: '400px' },
+       // overflow: 'hidden',
       }}
     >
       <Slider {...settings}>
@@ -40,10 +41,11 @@ const Banner = () => {
             component="img"
             src={img}
             alt={`Banner ${index}`}
+          
             sx={{
               width: '100%',
               height: 'auto',
-              objectFit: 'cover',
+              objectFit: 'fill',
             }}
           />
         ))}
