@@ -4,6 +4,8 @@ import { Box, Grid, Typography, Paper } from '@mui/material';
 
 const Banner = () => {
   return (
+            <section id="banner" >
+
     <Box sx={{ width: '100%' }}>
       {/* Static Banner Image */}
       <Box
@@ -119,6 +121,7 @@ const Banner = () => {
         </Grid>
       </Grid>
     </Box>
+    </section>
   );
 };
 

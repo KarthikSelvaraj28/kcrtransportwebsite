@@ -25,6 +25,7 @@ import './DrawerAppBar.css';
 const drawerWidth = '70vw';
 
 const navItems = [
+    { label: 'Home', href: '#banner' },
   { label: 'Buses', href: '#buses' },
   { label: 'Cargo', href: '#cargo' },
   { label: 'Tippers', href: '#tippers' },
@@ -226,7 +227,7 @@ function DrawerAppBar(props) {
           {/* Desktop Nav Buttons */}
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
             <Scrollspy
-              items={['buses', 'cargo', 'tippers', 'dieselbowsers', 'ourclients']}
+              items={['banner','buses', 'cargo', 'tippers', 'dieselbowsers', 'ourclients']}
               currentClassName="active-link"
               componentTag="div"
               style={{ display: 'flex', gap: '24px' }}
