@@ -6,8 +6,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const bannerImages = [
-  '/images/bannerbg.png',
-  '/images/karbanner.png',
+  '/images/banner.png',
+  //'/images/karbanner.png',
   
 ];
 
@@ -43,7 +43,7 @@ const Banner = () => {
             sx={{
               width: '100%',
               height: '100%',
-              objectFit: 'cover',
+              //objectFit: 'cover',
             }}
           />
         ))}
