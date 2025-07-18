@@ -15,8 +15,8 @@ import {
   Button
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+//import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+//import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Scrollspy from 'react-scrollspy';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -84,52 +84,63 @@ function DrawerAppBar(props) {
         </ListItemButton>
       </ListItem>
 
-      {/* Inject Email and WhatsApp just after 'Contact' */}
       {item.label === 'Contact' && (
-        <Box
-          sx={{
-            mt: 2,
-            mb: 1,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: 1.5,
-          }}
-        >
-          <a
-            href="mailto:kcrtransport@gmail.com"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 8,
-              textDecoration: 'none',
-              color: '#3a1681',
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-            }}
-          >
-            <EmailOutlinedIcon sx={{ fontSize: 20 }} />
-            <span>kcrtransport@gmail.com</span>
-          </a>
-          <a
-            href="https://wa.me/919944651308"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 8,
-              textDecoration: 'none',
-              color: '#3a1681',
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-            }}
-          >
-            <WhatsAppIcon sx={{ fontSize: 20 }} />
-            <span>9944651308</span>
-          </a>
-        </Box>
-      )}
+  <Box
+    sx={{
+      mt: 2,
+      mb: 1,
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 1.5,
+    }}
+  >
+    {/* Email Link */}
+    <a
+      href="mailto:kcrtransport@gmail.com"
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 8,
+        textDecoration: 'none',
+        color: '#3a1681',
+        fontFamily: 'Poppins, sans-serif',
+        fontWeight: 600,
+      }}
+    >
+      <img
+        src="/images/mail.svg"
+        alt="Email"
+        style={{ width: 20, height: 20 }}
+      />
+      <span>kcrtransport@gmail.com</span>
+    </a>
+
+    {/* WhatsApp Link */}
+    <a
+      href="https://wa.me/919944651308"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 8,
+        textDecoration: 'none',
+        color: '#3a1681',
+        fontFamily: 'Poppins, sans-serif',
+        fontWeight: 600,
+      }}
+    >
+      <img
+        src="/images/whatsapp.svg"
+        alt="WhatsApp"
+        style={{ width: 20, height: 20 }}
+      />
+      <span>9944651308</span>
+    </a>
+  </Box>
+)}
+
     </React.Fragment>
   ))}
 </List>

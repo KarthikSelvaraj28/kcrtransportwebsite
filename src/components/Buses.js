@@ -127,13 +127,13 @@ Operated under the expertise of a reputed brand in the sector
         >
           <Box
             component="img"
-            src="/images/bus.png"
+            src="/images/buss.png"
             alt="Bus"
           
             sx={{
              width: {
               xs:"100%",
-              //lg:"100%"
+              lg:"100%",
              },
               height: "auto",
             }}
@@ -160,10 +160,10 @@ Operated under the expertise of a reputed brand in the sector
         >
           <Box
             component="img"
-            src="/images/staff.png"
+            src="/images/staffbu.png"
             alt="Staff Bus"
             sx={{
-              width: {xs:"100%",md:"90%",xl:"auto"},
+              width: {xs:"100%",md:"100%",xl:"auto"},
         height: 'auto',
         objectFit: 'cover', 
         borderRadius:"10px",
