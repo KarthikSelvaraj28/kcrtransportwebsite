@@ -13,7 +13,8 @@ const Buses = () => {
   color: "#3a1681",
   fontFamily:"serif",
   textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
-//  marginBottom: "0.5rem"
+  marginBottom:"0",
+  marginTop:'10px'
 }}>
  Buses
 </h1>
