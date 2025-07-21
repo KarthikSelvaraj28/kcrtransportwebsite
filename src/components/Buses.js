@@ -6,18 +6,19 @@ const Buses = () => {
   return (
     
         <section id="buses" >
-        <h1 style={{
+       <h1 style={{
   textAlign: "center",
   fontSize: "2.5rem",
   fontWeight: "600",
   color: "#3a1681",
-  fontFamily:"serif",
+  fontFamily: "serif",
   textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
-  marginBottom:"0",
-  marginTop:'10px'
+  marginBottom: "0",
+  marginTop: '10px',
 }}>
- Buses
+  Buses
 </h1>
+
       <Grid
         container
         spacing={3}
@@ -85,16 +86,16 @@ Operated under the expertise of a reputed brand in the sector
 
 
   <p style={{ display: "flex", alignItems: "flex-start" }}>
-    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1,verticalAlign:"top" }} />
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", verticalAlign:"top" }} />
     Leading operators contracted for 3 routes
   </p>
 
   <p style={{ display: "flex", alignItems: "flex-start" }}>
-    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", }} />
     Andhra to Telangana: 3 designated routes run by top operators
   </p>
   <p style={{ display: "flex", alignItems: "flex-start" }}>
-    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce",  }} />
     Discover more with 5 new routes from top-tier travel provider's coming soon!
   </p>
 

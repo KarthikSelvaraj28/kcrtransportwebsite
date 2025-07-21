@@ -111,7 +111,7 @@ const Cargo = () => {
                         fontFamily: 'Poppins, sans-serif',
                       }}
                     >
-                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce', mr: 1 }} />
+                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce'}} />
                       {text}
                     </Box>
                   ))}
@@ -162,9 +162,6 @@ const Cargo = () => {
                   variant="subtitle1"
                   sx={{
                     fontWeight: 600,
-                    mb: 1,
-                                        ml:2,
-
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
                   }}
@@ -193,7 +190,7 @@ const Cargo = () => {
                         fontFamily: 'Poppins, sans-serif',
                       }}
                     >
-                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce', mr: 1 }} />
+                      <ArrowRightOutlinedIcon sx={{ color: '#85a1ce' }} />
                       {text}
                     </Box>
                   ))}

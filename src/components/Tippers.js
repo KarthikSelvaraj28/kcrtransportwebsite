@@ -86,7 +86,7 @@ const Tippers = () => {
                   sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}
                 >
                   <ArrowRightOutlinedIcon
-                    sx={{ color: '#85a1ce', mr: 1, mt: '3px' }}
+                    sx={{ color: '#85a1ce' }}
                   />
                   <Typography
                     sx={{
