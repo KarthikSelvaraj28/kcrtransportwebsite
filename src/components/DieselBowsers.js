@@ -64,7 +64,7 @@ const DieselBowsers = () => {
                   >
                     <img
                       component="img"
-                      src="/images/Deise.png"
+                      src="/images/Dieselbowsers.png"
                       alt="Tipper Vehicle"
                       style={{
                         
@@ -111,6 +111,8 @@ const DieselBowsers = () => {
                 color: '#85a1ce',
                 fontFamily: 'Poppins, sans-serif',
                 mt: 1,
+                        textTransform:"uppercase",
+
               }}
             >
 Diesel bowser available our fleet badge</Typography>
@@ -129,11 +131,11 @@ Diesel bowser available our fleet badge</Typography>
   }}
 >
 
- <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",fontFamily: "Poppins, sans-serif"}}  /> Diesel Bowser available 1kl to 6kl</p>
+ <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",fontFamily: "Poppins, sans-serif"}}  /> Diesel bowsers available from 1KL to 6KL</p>
 
   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}   /> Under the leading companys contract, provisions range from 1,000 to 6,000 liters</p>
 
-   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> PESO License and calibrated tanks available</p>
+   <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  />PESO-licensed with fully calibrated tanks available</p>
 
 </Typography>
                 <Typography
@@ -146,6 +148,8 @@ Diesel bowser available our fleet badge</Typography>
                 fontFamily: 'Poppins, sans-serif',
                 mt: 3,
                 ml:0,
+                        textTransform:"uppercase",
+
               }}
             >
 Service Highlights</Typography>
@@ -161,11 +165,11 @@ Service Highlights</Typography>
   }}
 >
 
-                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",}}  /> Tamilnadu Fishing corporation</p>
+                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce",}}  /> Tamil Nadu Fishing Corporation</p>
 
-                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> New NE-7 Construction sites</p>
+                 <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> New NE-7 Construction Sites</p>
 
-                <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Kanyakumari Trivandrum Highway</p>
+                <p style={{display:"flex"}}><ArrowRightOutlinedIcon sx={{color:"#85a1ce"}}  /> Kanyakumari – Trivandrum Highway Operations</p>
 
 </Typography>
 

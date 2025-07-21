@@ -60,7 +60,7 @@ const Cargo = () => {
                       fontSize: { xs: 18, sm: 20, md: 22 },
                       fontWeight: 'bold',
                       color: '#3a1681',
-                      fontFamily: 'serif',
+    fontFamily: "Poppins, sans-serif",
                     }}
                   >
                     CARGO CONTAINER TRANSPORT
@@ -86,6 +86,8 @@ const Cargo = () => {
                     ml:2,
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
+                        textTransform:"uppercase",
+
                   }}
                 >
                   Variants
@@ -94,9 +96,9 @@ const Cargo = () => {
                 {/* Features List */}
                 <Box sx={{ mt: 2, ml: 1 }}>
                   {[
-                    '20ft to 32ft Container Options',
-                    'Payload: 5 to 32000 Tonner',
-                    'Available for Monthly Rental',
+                            '20ft to 32ft Container Options',
+                            'Payload Capacity: 5 to 32,000 Tonnes',
+                            'Available for Monthly Rental',
                   ].map((text, index) => (
                     <Box
                       key={index}
@@ -140,7 +142,7 @@ const Cargo = () => {
                       fontSize: { xs: 18, sm: 20, md: 22 },
                       fontWeight: 'bold',
                       color: '#3a1681',
-                      fontFamily: 'serif',
+    fontFamily: "Poppins, sans-serif",
                     }}
                   >
                     MEDICAL FREEZER CONTAINER
@@ -149,7 +151,7 @@ const Cargo = () => {
               />
               <CardMedia
                 component="img"
-                image="/images/Freezer.png"
+                image="/images/Freezercontainer.png"
                 alt="Medical Freezer"
                 sx={{
                   width: "100%",
@@ -165,6 +167,7 @@ const Cargo = () => {
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
                     marginLeft: '15px',
+    textTransform:"uppercase",
 
                   }}
                 >
@@ -174,11 +177,11 @@ const Cargo = () => {
                 {/* Highlights List */}
                 <Box sx={{ mt: 2, ml: 1 }}>
                   {[
-                    '-4°C to -16°C Temperature Freezers',
-                    'Freezer container all types and size',
-                    '1 Tonner to 32 Tonner(32 Feet) freezer container available',
-                    'PAN India Medicine Delivery',
-                    'Certified Pharma Transport Vehicles',
+                    'Freezer containers available in all types and sizes',
+                    'Temperature range: -4°C to -16°C',
+                    'Capacity: 1 Ton to 32 Ton (32 Feet) freezer containers',
+                    'PAN India medicine delivery',
+                    'Certified pharma transport vehicles',
                   ].map((text, index) => (
                     <Box
                       key={index}

@@ -66,6 +66,7 @@ const Buses = () => {
      color: "#85a1ce",
     fontFamily: "Poppins, sans-serif",
     mt:1,
+    textTransform:"uppercase",
   }}
 >
 Operated under the expertise of a reputed brand in the sector
@@ -92,27 +93,32 @@ Operated under the expertise of a reputed brand in the sector
 
   <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", }} />
-    Andhra to Telangana: 3 designated routes run by top operators
+Andhra to Telangana: 3 designated routes operated by top providers
+
   </p>
   <p style={{ display: "flex", alignItems: "flex-start" }}>
     <ArrowRightOutlinedIcon sx={{ color: "#85a1ce",  }} />
-    Discover more with 5 new routes from top-tier travel provider's coming soon!
+Discover more: 5 new routes from top-tier travel providers launching soon!
+
   </p>
 
   {/* SUB-POINT with smaller dot icon */}
   
 
   <p style={{ display: "flex", alignItems: "flex-start" }}>
-    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce", mr: 1 }} />
-    Own operations: 2 upcoming routes
+    <ArrowRightOutlinedIcon sx={{ color: "#85a1ce"}} />
+Own Operations: 2 upcoming routes
+
   </p>
-   <p style={{  marginLeft: "30px" }}>
+   <p style={{  marginLeft: "20px" }}>
     <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
-    Vellore to Tiruchendur – launching soon
+Vellore to Tiruchendur – Launching soon
+
   </p>
-   <p style={{  marginLeft: "30px" }}>
+   <p style={{  marginLeft: "20px" }}>
     <FiberManualRecordIcon sx={{ color: "#85a1ce", fontSize: "10px", mt: "2px", mr: 1 }} />
-    Vellore to Nagapattinam – launching soon
+Vellore to Nagapattinam – Launching soon
+
   </p>
 </Typography>
 
@@ -200,7 +206,7 @@ Operated under the expertise of a reputed brand in the sector
     fontFamily: "Poppins, sans-serif",
   }}
 >
-  STAFF BUS TRANSPORTATION 
+  STAFF BUS TRANSPORT
   
 </Typography>
 <Typography
@@ -212,6 +218,8 @@ Operated under the expertise of a reputed brand in the sector
      color: "#85a1ce",
     fontFamily: "Poppins, sans-serif",
     mt:1,
+        textTransform:"uppercase",
+
   }}>
 
     12 to 45 Seater Vehicles for Corporate Transport

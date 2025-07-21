@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Grid, Typography, Paper } from '@mui/material';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Tippers = () => {
   return (
@@ -34,74 +35,88 @@ const Tippers = () => {
         }}
       >
         {/* Left: Text Content */}
-        <Grid size={{xs:12,lg:6,md:6}}>
-          <Paper
-            elevation={3}
-            sx={{
-              p: { xs: 3, sm: 4, md: 5 },
-              borderRadius: 2,
-              backgroundColor: '#fff',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-              height: '100%',
-            }}
-          >
-            <Typography
-              variant="h3"
-              component="h4"
-              sx={{
-                fontSize: { lg: 20, md: 20, sm: 24, xs: 20 },
-                fontWeight: 'bold',
-                color: '#3a1681',
-                fontFamily: 'Poppins, sans-serif',
-                mt:1,
-              }}
-            >
-              TIPPERS
-            </Typography>
-            <Typography
-              variant="h3"
-              component="h4"
-              sx={{
-                fontSize: { lg: 15, md: 20, sm: 20, xs: 20 },
-                fontWeight: 'bold',
-                color: '#85a1ce',
-                fontFamily: 'Poppins, sans-serif',
-                mt: 1,
-              }}
-            >
-              High-capacity fleet & pump solutions
-            </Typography>
+       <Grid item xs={12} size={{md:6}} lg={6}>
+  <Paper
+    elevation={3}
+    sx={{
+      p: { xs: 3, sm: 4, md: 5 },
+      borderRadius: 2,
+      backgroundColor: '#fff',
+      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+      height: '100%',
+    }}
+  >
+    <Typography
+      variant="h3"
+      component="h4"
+      sx={{
+        fontSize: { lg: 20, md: 20, sm: 24, xs: 20 },
+        fontWeight: 'bold',
+        color: '#3a1681',
+        fontFamily: 'Poppins, sans-serif',
+        mt: 1,
+      }}
+    >
+      TIPPERS & CONCRETE
+    </Typography>
+    <Typography
+      variant="h3"
+      component="h4"
+      sx={{
+        fontSize: { lg: 15, md: 20, sm: 20, xs: 20 },
+        fontWeight: 'bold',
+        color: '#85a1ce',
+        fontFamily: 'Poppins, sans-serif',
+        mt: 1,
+        textTransform:"uppercase",
+      }}
+    >
+      High-capacity fleet & pump solutions
+    </Typography>
 
-            {/* Bullet Points */}
-            <Box sx={{ mt: 2,ml:-1 }}>
-              {[
-                '6 Cu.M to 12 Cu.M Tipper Trucks',
-                '7 & 9 Cu.M Ready Mix Concrete (RMC) Available',
-                'M-sand,Blue Metal supply',
-                'Concrete Pump Truck Services',
-                'Flatbed Vehicles for Equipment Transport',
-              ].map((item, index) => (
-                <Box
-                  key={index}
-                  sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}
-                >
-                  <ArrowRightOutlinedIcon
-                    sx={{ color: '#85a1ce' }}
-                  />
-                  <Typography
-                    sx={{
-                      fontSize: { lg: 15, md: 14, sm: 15, xs: 14 },
-                      color: '#333',
-                      fontFamily: 'Poppins, sans-serif',
-                    }}
-                  >
-                    {item}
-                  </Typography>
-                </Box>
-              ))}
-            </Box>
-          </Paper>
-        </Grid>
+    {/* Bullet Points with Arrows and Sub-points */}
+    <Box
+      sx={{
+        mt: 2,
+        fontSize: { lg: 15, md: 12, sm: 15, xs: 14 },
+        color: '#333',
+        fontFamily: 'Poppins, sans-serif',
+        lineHeight: 1.6,
+        ml: -1,
+      }}
+    >
+      <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
+        <ArrowRightOutlinedIcon sx={{ color: '#85a1ce', verticalAlign: 'top' }} />
+        6 Cu.M to 12 Cu.M Tipper Trucks
+      </Box>
+
+      <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
+        <ArrowRightOutlinedIcon sx={{ color: '#85a1ce' }} />
+7 & 9 Cu.M Ready Mix Concrete (RMC) available
+
+      </Box>
+
+      
+      <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1, ml: 2 }}>
+        <FiberManualRecordIcon
+          sx={{ color: '#85a1ce', fontSize: '10px', mt: '6px', mr: 1, }}
+        />
+        M-Sand, Blue-Metal (20mm, 16mm) supplier
+      </Box>
+
+      <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
+        <ArrowRightOutlinedIcon sx={{ color: '#85a1ce' }} />
+Concrete Pump Truck Services for efficient delivery      </Box>
+
+      <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
+        <ArrowRightOutlinedIcon sx={{ color: '#85a1ce' }} />
+Flatbed vehicles available for equipment transport
+
+      </Box>
+    </Box>
+  </Paper>
+</Grid>
+
 
         {/* Right: Image Box */}
         <Grid size={{xs:12,lg:6,md:5}}>

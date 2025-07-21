@@ -41,6 +41,11 @@ const Banner = () => {
               'linear-gradient(to top, rgba(72, 183, 214, 0.2) 0%, rgba(255,255,255,1) 100%)',
             px: { xs: 2, md: 10 },
             py: { xs: 4, md: 6 },
+             justifyContent: 'center',   
+    //alignItems: 'center',      
+    textAlign: 'center',   
+       
+  
           }}
         >
           {/* Mission */}
@@ -58,7 +63,6 @@ const Banner = () => {
                   textAlign:'center',
                   fontWeight: 'bold',
                     textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
-
                   color: '#3a1681',
                   fontFamily: 'serif',
                     fontSize: "1.5rem",
@@ -74,6 +78,7 @@ const Banner = () => {
                   color: '#333',
                   fontFamily: 'Poppins, sans-serif',
                   lineHeight: 1.8,
+                  justifyContent:"center",
                 }}
               >
                 To revolutionize the transport industry by integrating
@@ -112,6 +117,7 @@ const Banner = () => {
                   color: '#333',
                   fontFamily: 'Poppins, sans-serif',
                   lineHeight: 1.8,
+                  justifyContent:"normal",
                 }}
               >
                 To build a brand that stands for timely delivery,
