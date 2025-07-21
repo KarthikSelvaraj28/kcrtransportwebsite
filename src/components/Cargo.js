@@ -164,6 +164,8 @@ const Cargo = () => {
                     fontWeight: 600,
                     color: '#85a1ce',
                     fontFamily: 'Poppins, sans-serif',
+                    marginLeft: '15px',
+
                   }}
                 >
                   Service Highlights

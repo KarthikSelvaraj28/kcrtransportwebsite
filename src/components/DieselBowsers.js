@@ -146,7 +146,6 @@ Diesel bowser available our fleet badge</Typography>
                 fontFamily: 'Poppins, sans-serif',
                 mt: 3,
                 ml:0,
-                marginleft:'15px',
               }}
             >
 Service Highlights</Typography>
