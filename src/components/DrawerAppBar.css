@@ -56,3 +56,8 @@ html, body {
     display: none !important;
   }
 }
+.active-link .nav-button {
+  color: #6715e3 !important;
+  font-weight: 700;
+  transform: scale(1.1);
+}
