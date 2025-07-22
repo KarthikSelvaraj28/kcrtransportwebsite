@@ -70,7 +70,7 @@ const Banner = () => {
                   mb: 2,
                 }}
               >
-                MISSION
+                MISSIONS
               </Typography>
               <Typography
                 sx={{
@@ -109,7 +109,7 @@ const Banner = () => {
                   mb: 2,
                 }}
               >
-                VISION
+                VISIONS
               </Typography>
               <Typography
                 sx={{
